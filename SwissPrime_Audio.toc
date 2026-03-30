@@ -1,5 +1,14 @@
-## Interface: 90002 
+## Interface: 11508, 20505, 30405, 38000, 40402, 50503, 110207, 120000, 120001
 ## Title: SwissPrime Audio
+## Notes: Registers custom swiss sound files with LibSharedMedia-3.0 for use by other addons.
+## Version: 1.0.1
+## X-Category: Media
+## Author: Divine
 
+## OptionalDeps: LibStub, LibSharedMedia-3.0
+
+#@no-lib-strip@
 embeds.xml
-SwissPrime_Audio.lua 
+#@end-no-lib-strip@
+
+SwissPrime_Audio.lua
